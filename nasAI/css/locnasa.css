@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #021130;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
+
+ul#menu {
+  background-color: RGBa(0, 0, 0, 0.5);
+  line-height: 60px;
+  position: fixed;
+  width: 100%;
+}
+
+ul#menu li {
+  display: inline;
+}
+
+nav a:link,
+a:visited {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 21px;
+  text-shadow: 1px 1px 20px #000;
+}
+
+
+
+#um:hover {
+  background-color: #E6E9EE;
+  color: #ffffff;
+}
+
+#dois:hover {
+  background-color: #F24968;
+  color: #ffffff;
+}
+
+#tres:hover {
+  background-color: #082359;
+  color: #ffffff;
+}
+
+#quatro:hover {
+  background-color: #071A40;
+  color: #ffffff;
+}
+
+#cinco:hover {
+  background-color: #152E42;
+  color: #ffffff;
+}
+
+footer a:hover,
+a:active {
+  color: #6f9196;
+  text-align:center;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+footer {
+   height: 200px;
+    width: 100%;
+    background-color: #304146;
+    clear: both;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
